@@ -31,4 +31,4 @@ mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVN
 
 [LINK](https://www.google.com/?zx=1759402167197&no_sw_cr=1/ "TITULO DEL ENLACE")
 
-![FOTONANO](./imagen1.jpgimagen1.jpg/FotoALONSO)
+![FOTONANO](./imagen1.jpg "FotoALONSO")
