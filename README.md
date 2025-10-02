@@ -19,7 +19,6 @@ __*TEXTO*__
 * ELEMENTO 
 
 
-
 mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVNSONVOSINVLKnoiSFMWIORVNIOSN`pivrninvaoinsrfoinsvak
 
 
@@ -30,6 +29,6 @@ mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVN
 <p>Esto es un parrafo</p>
 ```
 
-[LINK](https://www.google.com/?zx=1759402167197&no_sw_cr=1/"TITULO DEL ENLACE")
+[LINK](https://www.google.com/?zx=1759402167197&no_sw_cr=1/ "TITULO DEL ENLACE")
 
-![FOTONANO](imagen1.jpg)
+![FOTONANO](./imagen1.jpgimagen1.jpg/FotoALONSO)
