@@ -35,7 +35,7 @@ mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVN
 
 
 |NOMBRE|EQUIPO|POSICION|
-|-----------|----------|-----------|
+|:-----------|:----------:|-----------:|
 |MESSI|INTER MAIMI|MCO|
 |PEDRI|FCB|MC|
 |PAU CUBARSI|FCB|DFC|
