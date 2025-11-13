@@ -215,7 +215,9 @@ Combinar Celdas
 </tr>
 ```
 Atributos:
+
 rowspan: Combina celdas verticalmente (filas)
+
 colspan: Combina celdas horizontalmente (columnas)
 
 
