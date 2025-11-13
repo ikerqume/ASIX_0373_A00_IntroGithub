@@ -81,9 +81,13 @@ ESTRUCTURA
 <section>Sección de contenido</section>
 <article>Artículo independiente</article>
 <footer>Pie de página</footer>
-
-
-<a href="pagina2.html">Ir a la segunda página</a>
+```
+LINK A OTRA PAGINA HTML
+```
+<a href="pagina2.html"></a>
+```
+IMAGEN 
+```
 <img src="imagen.jpg" alt="Descripción de la imagen" />
 
 ```
