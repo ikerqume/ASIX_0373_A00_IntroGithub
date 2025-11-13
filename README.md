@@ -86,7 +86,9 @@ ESTRUCTURA
 <a href="pagina2.html">Ir a la segunda página</a>
 <img src="imagen.jpg" alt="Descripción de la imagen" />
 
-
+```
+TABLAS 
+```
 <table> 
   <tr> //row
     <th>Nombre</th> //encabezado
