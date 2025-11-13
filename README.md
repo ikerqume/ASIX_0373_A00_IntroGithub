@@ -157,7 +157,9 @@ IMAGEN
 <img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200" />
 ```
 src: Ruta de la imagen
+
 alt: Texto alternativo (obligatorio para accesibilidad)
+
 width/height: Dimensiones en píxeles
 
 
@@ -362,11 +364,17 @@ FORMULARIO
 
 ```
 placeholder: Texto de sugerencia
+
 required: Campo obligatorio
+
 minlength/maxlength: Longitud mínima/máxima
+
 pattern: Validación con expresión regular
+
 disabled: Desactiva el campo
+
 readonly: Solo lectura (no editable)
+
 value: Valor inicial del campo
 
 
