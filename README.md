@@ -73,7 +73,7 @@ ESTRUCTURA
     <p>Este es un párrafo.</p>
   </body>
 </html>
-```
+
 
 <header>Encabezado de la página</header>
 <nav>Menú de navegación</nav>
@@ -82,11 +82,11 @@ ESTRUCTURA
 <article>Artículo independiente</article>
 <footer>Pie de página</footer>
 
-```
+
 <a href="pagina2.html">Ir a la segunda página</a>
 <img src="imagen.jpg" alt="Descripción de la imagen" />
-```
-```
+
+
 <table> 
   <tr> //row
     <th>Nombre</th> //encabezado
