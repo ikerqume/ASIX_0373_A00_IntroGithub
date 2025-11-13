@@ -103,7 +103,8 @@ ESTRUCTURA
 </html>
 ```
 
-Elementos Semánticos HTML5
+Elementos Semánticos 
+
 Estos elementos dan significado a las diferentes secciones de tu página:
 ```
 <header>
