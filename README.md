@@ -1,6 +1,9 @@
 # ASIX_0373_A01_MisApuntes
 Alberto apruébame porfa ;)
 
+Encabezados
+Los encabezados se crean usando el símbolo #. Cuantos más # uses, menor será el nivel del encabezado.
+
 ## HOLA 
 ### ADIOS
 
@@ -22,12 +25,15 @@ Esto esta en *cursiva*
 
 __*TEXTO*__
 
+LISTAS ORDENADAS Y DESORDENADAS
+
 1. ELEMENTO 1
-* ELEMENTO 
 2. ELEMENTO 2 
-* ELEMENTO 
 3. ELEMENTO 3
-* ELEMENTO 
+   
+* ELEMENTO 1
+* ELEMENTO 2
+* ELEMENTO 3
 
 
 mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVNSONVOSINVLKnoiSFMWIORVNIOSN`pivrninvaoinsrfoinsvak
@@ -35,13 +41,18 @@ mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVN
 
 mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVNSONVOSINVLKnoiSFMWIORVNIOSN`pivrninvaoinsrfoinsvak
 
+Bloques de Código
+Para poder poner un ejemplo de un codigo html
+Para bloques de código usa triple comilla invertida:
 
 ```
 <p>Esto es un parrafo</p>
 ```
 
+ENLACES 
 [LINK](https://www.google.com/?zx=1759402167197&no_sw_cr=1/ "TITULO DEL ENLACE")
 
+IMAGENES
 ![FOTONANO](./imagen1.jpg "FotoALONSO")
 
 
@@ -50,6 +61,10 @@ mfnsidfoisoifjioddsonPININIniefjifnsvicovjpiavrmcznivInvecsifioesfmiskvcniPEMIVN
 |MESSI|INTER MAIMI|MCO|
 |PEDRI|FCB|MC|
 |PAU CUBARSI|FCB|DFC|
+
+:------- → Alineado a la izquierda
+:------: → Centrado
+-------: → Alineado a la derecha
 
 COMANDO DE GIT PARA SUBIR COSAS A GITHUB
 git init	Inicializa un nuevo repositorio
@@ -63,48 +78,143 @@ ESTRUCTURA
 
 ```
 <!DOCTYPE html>
+<!-- Declara que este es un documento HTML5 -->
+
 <html lang="es">
+<!-- Elemento raíz, lang="es" indica idioma español -->
+
   <head>
+    <!-- Metadatos del documento (no visibles en la página) -->
     <meta charset="UTF-8" />
+    <!-- Codificación de caracteres UTF-8 para acentos y ñ -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace la página responsive (adaptable a móviles) -->
+    
     <title>Título de la página</title>
+    <!-- Aparece en la pestaña del navegador -->
   </head>
+
   <body>
+    <!-- Todo el contenido visible va aquí -->
     <h1>Encabezado principal</h1>
     <p>Este es un párrafo.</p>
   </body>
 </html>
-
-
-<header>Encabezado de la página</header>
-<nav>Menú de navegación</nav>
-<main>Contenido principal</main>
-<section>Sección de contenido</section>
-<article>Artículo independiente</article>
-<footer>Pie de página</footer>
 ```
+
+Elementos Semánticos HTML5
+Estos elementos dan significado a las diferentes secciones de tu página:
+```
+<header>
+  <!-- Encabezado de la página o sección -->
+  <h1>Mi Sitio Web</h1>
+  <nav>
+    <!-- Menú de navegación principal -->
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <!-- Contenido principal único de la página -->
+  <section>
+    <!-- Sección temática del contenido -->
+    <h2>Sección de Servicios</h2>
+    <article>
+      <!-- Contenido independiente y reutilizable -->
+      <h3>Servicio 1</h3>
+      <p>Descripción del servicio...</p>
+    </article>
+  </section>
+</body>
+
+<footer>
+  <!-- Pie de página con info de contacto, copyright, etc. -->
+  <p>&copy; 2024 Mi Sitio Web</p>
+</footer>
+
+```
+Comentarios en HTML
+
+<!-- Esto es un comentario en HTML -->
+<!-- Los comentarios no se muestran en la página -->
+
 LINK A OTRA PAGINA HTML
 ```
-<a href="pagina2.html"></a>
+<a href="pagina2.html">Ir a Página 2</a>
+<a href="pagina2.html" target="_blank">Abrir en nueva pestaña</a>
+<a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+  Google
+</a>
 ```
 IMAGEN 
 ```
-<img src="imagen.jpg" alt="Descripción de la imagen" />
-
+<img src="imagen.jpg" alt="Descripción de la imagen" width="300" height="200" />
 ```
+src: Ruta de la imagen
+alt: Texto alternativo (obligatorio para accesibilidad)
+width/height: Dimensiones en píxeles
+
+
 TABLAS 
 ```
-<table> 
-  <tr> //row
-    <th>Nombre</th> //encabezado
-    <th>Edad</th>
-  </tr>
-  <tr>
-    <td>Ana</td> //datos
-    <td>22</td>
-  </tr>
+<table border="1">
+  <!-- border="1" añade bordes visibles -->
+  
+  <caption>Título de la tabla</caption>
+  <!-- Descripción de la tabla -->
+  
+  <thead>
+    <!-- Encabezado de la tabla -->
+    <tr>
+      <!-- Table Row (fila) -->
+      <th>Nombre</th>  <!-- Table Header (encabezado) -->
+      <th>Edad</th>
+      <th>Ciudad</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <!-- Cuerpo de la tabla con los datos -->
+    <tr>
+      <td>Ana</td>  <!-- Table Data (celda de datos) -->
+      <td>22</td>
+      <td>Madrid</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td>28</td>
+      <td>Barcelona</td>
+    </tr>
+  </tbody>
+  
+  <tfoot>
+    <!-- Pie de tabla (opcional, para totales o resúmenes) -->
+    <tr>
+      <td colspan="3">Total: 2 personas</td>
+    </tr>
+  </tfoot>
 </table>
 ```
-//esto es un comentario en html
+Combinar Celdas
+
+```
+<tr>
+  <td rowspan="2">Esta celda ocupa 2 filas</td>
+  <td>Celda normal</td>
+</tr>
+<tr>
+  <td colspan="2">Esta celda ocupa 2 columnas</td>
+</tr>
+```
+Atributos:
+rowspan: Combina celdas verticalmente (filas)
+colspan: Combina celdas horizontalmente (columnas)
+
 
 FORMULARIO 
 
@@ -211,3 +321,51 @@ FORMULARIO
     </body>
 </html>
 ```
+```
+<!-- Email con validación automática -->
+<input type="email" name="email" required>
+
+<!-- Contraseña (oculta caracteres) -->
+<input type="password" name="password" required>
+
+<!-- Número con límites -->
+<input type="number" name="edad" min="18" max="99">
+
+<!-- Fecha -->
+<input type="date" name="fecha">
+
+<!-- Color -->
+<input type="color" name="color">
+
+<!-- Archivo -->
+<input type="file" name="archivo">
+
+<!-- URL con validación -->
+<input type="url" name="sitio-web">
+
+<!-- Teléfono -->
+<input type="tel" name="telefono">
+
+<input 
+  type="text" 
+  name="ejemplo"
+  placeholder="Texto de ayuda"
+  required
+  minlength="3"
+  maxlength="20"
+  pattern="[A-Za-z]+"
+  disabled
+  readonly
+  value="Valor predeterminado"
+>
+
+```
+placeholder: Texto de sugerencia
+required: Campo obligatorio
+minlength/maxlength: Longitud mínima/máxima
+pattern: Validación con expresión regular
+disabled: Desactiva el campo
+readonly: Solo lectura (no editable)
+value: Valor inicial del campo
+
+
