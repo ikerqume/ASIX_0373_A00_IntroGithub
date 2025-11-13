@@ -67,10 +67,15 @@ IMAGENES
 -------: → Alineado a la derecha
 
 COMANDO DE GIT PARA SUBIR COSAS A GITHUB
+
 git init	Inicializa un nuevo repositorio
+
 git add .	Añade todos los archivos al área de preparación
+
 git commit -m "mensaje"	Guarda los cambios con un mensaje
+
 git push origin main	Sube los cambios al repositorio remoto
+
 
 HTML 
 
